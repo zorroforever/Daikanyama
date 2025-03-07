@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+out/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+# 允许提交前端的 .env 文件
+!frontend/.env
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.sublime*
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Next.js specific
+.next/
+.vercel/
+
+# Backend specific
+backend/dist/
+backend/logs/
+backend/*.log
+backend/data/
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Frontend specific
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.turbo/
+frontend/.vercel/
+
+# Misc
+.cache/
+.temp/
+tmp/
+temp/
+*.bak
+*.tmp 
