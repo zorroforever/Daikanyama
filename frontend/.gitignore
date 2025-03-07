@@ -27,6 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 # .env  # 允许提交 .env 文件到版本控制
 
 # typescript
